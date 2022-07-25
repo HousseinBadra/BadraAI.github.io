@@ -66,14 +66,12 @@ body{
   
   position:absolute;
   margin:0 auto;
-  top:30vmin;
+  top:min(30vmin , 200px);
   font-size:10vmin;
    color: #dfe0e4; 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6; 
   
 }
-@media(min-width:435px){
-  .popup{
-    top:10vmin}}
+
   
